@@ -1,10 +1,11 @@
+import { Container } from '@chakra-ui/react'
 import React from 'react'
 
 const CoinDetail = () => {
   return (
-    <div>
-      
-    </div>
+    <Container maxW={'container.xl'}>
+
+    </Container>
   )
 }
 
