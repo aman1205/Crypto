@@ -5,6 +5,7 @@ import Home from "./component/Home"
 import Coin from "./component/Coin"
 import Exchange from "./component/Exchange"
 import CoinDetail from "./component/CoinDetail";
+import Footer from "./component/Footer";
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/exchange" element={<Exchange/>}/>
         <Route path="/coin/:id" element={<CoinDetail/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
